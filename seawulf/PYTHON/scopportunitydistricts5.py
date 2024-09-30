@@ -7,15 +7,15 @@ from gerrychain.tree import bipartition_tree
 from gerrychain.constraints import contiguous
 from functools import partial
 import pandas
-import geopandas as gpd
+# import geopandas as gpd
 from gerrychain import Election
 # from pcompress import Record
-import pcompress
+# import pcompress
 import tqdm
 import time  # Import the time module
 from gerrychain.updaters import Tally, cut_edges
 from gerrychain import metrics
-import seaborn as sns
+# import seaborn as sns
 
 # import pandas as pd
 # import matplotlib.pyplot as plt
